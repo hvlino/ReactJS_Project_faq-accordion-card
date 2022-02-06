@@ -1,0 +1,17 @@
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 0 95px 0 0;
+    border: 1px solid brown;
+    justify-content: center;
+}
+
+
+.text .questions .question-block .question {
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
